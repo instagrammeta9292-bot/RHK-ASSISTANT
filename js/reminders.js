@@ -20,6 +20,7 @@ function saveReminder(text) {
         text +
         "</b>"
     );
+    scheduleReminder(text);
 }
 
 // Show reminders
