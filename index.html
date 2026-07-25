@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>RHK Assistant</title>
+
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="css/style.css">
+
+<meta name="theme-color" content="#0f172a">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+        <div class="logo">RHK</div>
+        <div class="title">
+            <h2>RHK Assistant</h2>
+            <p>Your Personal AI Assistant</p>
+        </div>
+    </div>
+
+    <div id="chatBox" class="chatBox">
+
+        <div class="bot">
+            👋 Hello! I'm <b>RHK Assistant</b>.<br><br>
+
+            Try saying:
+            <br><br>
+
+            • Remember I have a meeting at 1:30 PM
+            <br>
+            • Remind me tomorrow at 9 AM
+            <br>
+            • What reminders do I have?
+        </div>
+
+    </div>
+
+    <div class="bottom">
+
+        <input
+            id="message"
+            type="text"
+            placeholder="Ask RHK anything..."
+            autocomplete="off">
+
+        <button id="sendBtn">
+            Send
+        </button>
+
+    </div>
+
+</div>
+
+<script src="js/app.js"></script>
+<script src="js/reminders.js"></script>
+<script src="js/notification.js"></script>
+
+</body>
+</html>
